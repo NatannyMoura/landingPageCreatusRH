@@ -1,0 +1,306 @@
+:root {
+ --azul-marinho: #0a0240;
+ --amarelo-mostarda:#f2ac57;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+nav {
+    background: url(./img/background.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    
+}
+body {
+    width: 664px;
+    background-color: var(--azul-marinho);
+}
+
+.box{
+    display: inline-flex;
+    height: 50%;
+}
+
+.logo{
+    width: 100%;
+    height: 150px;
+    padding: 60px 75px;
+}
+
+.img-logo{
+    width: 56%;
+    margin-top: -40px;
+}
+
+.tipography {
+    width: 198px;
+    height: 41px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    color: #362a89;
+    margin: -13px 300px;
+  }
+  .text-tipography {
+    margin-left: -135px;
+}
+  .tipo__container {
+    margin-left: 100px;
+}
+  .text-inform {
+  width: 478px;
+  height: 135px;
+  font-family: Roboto;
+  font-size: 26px;
+  color: #1a1f22;
+  margin-left: -134px;
+}
+  .img-ilustra{
+    width: 466px;
+    height: 244.1px;
+    object-fit: contain;
+    margin-top: 60px;
+    margin-left: -115px;
+}
+
+.container-info{
+    width: 992px;
+    height: 866px;
+    background-color: #ffffff;
+}
+
+.container-form {
+    display: flex;
+    padding-left: 100px;
+}
+.form-signin {
+    width: 555px;
+    height: 42px;
+    margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 17px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+  border: solid 3px rgba(190, 38, 150, 0.8);
+
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.title-Ebook {
+    width: 378px;
+    height: 154px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: -26px;
+}
+
+.txt-label {
+    width: 345px;
+    height: 19px;
+    font-family: Roboto;
+    font-size: 24px;
+    color: #f8f8f8;
+    margin: 8px 0 15px 10px;
+}
+
+.btn-enviar {
+    width: 555px;
+    height: 58px;
+    border-radius: 15px;
+    border: solid 2px rgba(190, 38, 150, 0.8);
+    background-color: rgba(229, 229, 229, 0);
+}
+
+.btn-enviar-active {
+    background-image: linear-gradient(to top, #be2695, #79288f, #362a89);
+}
+
+.input-padrao {
+    width: 555px;
+    height: 42px;
+    background-color: #ffffff;
+}
+
+.txt-enviar {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 10%;
+}
+
+@media (max-width: 767px) {
+.box {
+        display: inline-grid;
+}
+
+.logo {
+    height: 129px;
+    padding: 23px 75px;
+}
+
+.img-logo {
+    width: 78%;
+}
+.container-info {
+    height: 680px;
+    width: 100%;
+}
+.container-form {
+    width: 100%;
+}
+.form-signin {
+    width: 50%;
+    margin-left: -45px;
+}
+
+.btn-enviar {
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.tipography {
+    width: 100%;
+    margin: -3px 0;
+    text-align: center;
+}
+.title-Ebook {
+    font-size: 55px;
+    margin-top: 30px;
+}
+.text-inform {
+    width: 100%;
+    font-size: 25px;
+    margin-left: 6px;
+}
+
+.form-signin {
+    width: 85%;
+}
+
+.form-signin .form-control {
+    font-size: 20px;
+}
+
+}
+
+@media(min-width:768px) and (max-width:937px) {
+    body {
+        width: 768px;
+}
+.box {
+    display: inline-grid;
+}
+.img-logo {
+    width: 60%;
+    margin-left: 182px;
+    margin-top: -30px;
+}
+.title-Ebook {
+    margin-top: 20px;
+}
+
+.text-tipography {
+    margin-left: -88px;
+}
+.text-inform {
+    margin-left: -88px;
+}
+.container-info {
+    width: 958px;
+    margin-left: -190px;
+}
+.container-form {
+    padding-left: 0;
+}
+.btn-enviar{
+    margin-bottom: 75px;
+}
+}
+
+@media(min-width:938px) and (max-width:1000px) {
+    .container-info {
+        width: 1128px;
+}
+.img-logo {
+    width: 60%;
+    margin-left: 182px;
+    margin-top: -30px;
+}
+.title-Ebook {
+    margin-top: 20px;
+}
+.box {
+    display: inline-grid;
+}
+.container-form {
+    padding-left:0;
+}
+}
+
+@media(min-width:1023px) and (max-width:1440px) {
+
+.container-info {
+    width: 100%;
+    height: 835px;
+}
+
+.container-form {
+    padding-left: 36px;
+}
+
+.img-logo {
+    width: 60%;
+    margin-top: -34px;
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+}
+
+.text-inform {
+    margin-left: -220px;
+}
+
+.img-ilustra {
+    margin-left: -220px;
+}
+.form-control {
+    width: 90%;
+}
+.btn-enviar {
+    width: 90%;
+}
+
+.tipo__container {
+    margin-left: 100px;
+}
+
+.text-tipography {
+    margin-left: -220px;
+}
+}

@@ -1,0 +1,87 @@
+:root {
+    --azul-marinho: #0a0240;
+   }
+
+body{
+    width: 100%;
+}
+.image_rectangle{
+    width: 1440px;
+    height: 225px;
+}
+
+.img_tela{
+    width: 100%;
+}
+
+.image_logo{
+    margin-top: -325px;
+    margin-left: 100px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_desenho {
+    margin-right: 112px;
+}
+
+.text-image{
+    overflow: auto;
+}
+
+.text-agradecimento{
+    margin-top: -100px;
+}
+
+.obrigado{
+    width: 364px;
+    height: 74px;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--azul-marinho);
+}
+
+.text-ebook{
+    width: 605.4px;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: var(--azul-marinho);
+    margin: 30px -65px;
+}
+
+
+@media (max-width: 767px) {
+    .img_tela {
+        width: 1588px;
+    }
+}
+
+@media(min-width:768px) and (max-width:937px) {
+    .img_tela {
+        width: 1588px;
+    }
+}
+@media(min-width:938px) and (max-width:1000px) {
+    .img_tela {
+        width: 1405px;
+    }
+}
+@media(min-width:1023px) and (max-width:1290px) {
+    .img_tela {
+        width: 1288px;
+    }
+
+}
+
+@media(min-width:1291px) and (max-width:1440px) {
+    .img_tela {
+     width: 1406px;
+    }
+
+}
